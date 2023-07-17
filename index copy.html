@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>IDENTIFICAÇÃO DE ESBOÇO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  
+  
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="modal" class="modal fate ">
+<div class="modal-content">
+  <div class="modal-header">
+<button class="close " type="button " data-dismiss="modal">&times;</button>
+<h4 class="modal-title">modelos de esboços</h4>
+</div>
+<div class="modal-body"><img src="sketch1.png" alt=""> <img src="sketch2.png" alt=""> </div>
+</div>
+</div>
+<h1>idetificador de desenhos 
+  <button id="mostrar" class="btn btn-danger" data-toggle="modal" data-target="#modal">exibir exboços</button>
+</h1>
+<p>seus esboços: <span id="nome"></span></p>
+  <p>precisao: <span id="precisao"></span></p>
+  <p class="btn btn-danger">esboo a ser desenhado : <span id="desenho" ></span></p>
+  <p>tempo: <span id="tempo"></span></p>
+  <p>pontuaçao: <span id="pontuaçao" ></span></p>
+<script src="main.js"></script>
+</body>

@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+p{
+    font-size: 25px;
+}
+#mostrar{
+    float: right;
+   margin-right: 25px;
+}
+canvas{
+    margin-top: 150px;
+}
